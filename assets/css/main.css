@@ -1,6 +1,16 @@
 @import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 
+
+.center-cropped {
+  object-fit: contain; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  height: 13em;
+  width: 13em;
+  border: 2em;
+  border-radius:1em;
+}
+
 /*
 	Stellar by HTML5 UP
 	html5up.net | @ajlkn
